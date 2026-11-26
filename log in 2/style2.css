@@ -1,0 +1,153 @@
+body{
+    background-color: #dfd8d0;
+}
+
+
+/* color for logo in home */
+#kk{
+    color:rgb(92, 55, 38);
+    font-size: x-large;
+    font-family: "Matemasie", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    }
+    
+    #ll{
+    font-size: x-large;
+    color: rgb(92, 55, 38);
+    
+    }
+    
+    
+    .ids_and{
+        font-size: large;
+        color: rgb(147, 84, 55);
+    
+    }
+    /* logo imag */
+    
+    #img1{
+        height:20px ;
+        width: 20px;
+    }
+    
+
+    .contener{
+    background-color: #cabdb0;
+    margin: 77px 5px 0px 480px;
+    width: 565px;
+    height: 491px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 14px indianred;
+
+}
+
+
+
+#uname,#password{
+
+    width: 350px;
+    height: 46px;
+    background-color: #ede7e7;
+    border-radius: 19px;
+    border-width: 1px;
+    border-color: #00000066;
+    box-shadow: 0px 0px 6px indianred;
+    margin: 8px 0px 13px 86px;
+
+}
+
+input::placeholder{
+
+        padding-left: 30px;
+        font-family: cursive;
+        word-spacing: 1px;
+        letter-spacing: 1.4px;
+        font-size:small ;
+        color: rgba(92, 55, 38, 0.405);
+    
+    }
+
+    #submit{
+
+        margin: 36px 0px 0px 89px;
+        height: 33px;
+        width: 190px;
+        border-radius: 3px;
+        border-width: 1px;
+        border-color: #ff8a8a60;
+        box-shadow: 0px 0px 117px indianred;
+        background: linear-gradient(to right, #9a7467d9, #a59090); 
+    }
+
+
+    #admin{
+        position: absolute;
+        margin: 15px 0px 0px 89px;
+        height: 33px;
+        width: 190px;
+        border-radius: 3px;
+        border-width: 1px;
+        border-color: #ff8a8a60;
+        box-shadow: 0px 0px 117px indianred;
+        background: linear-gradient(to right, #9a7467d9, #a59090); 
+    }
+
+
+
+
+
+    p#p1 {
+        padding: 0px 21px;
+    }
+    
+    .divforshdow{
+    box-shadow: 0px 0px 114px indianred;
+    width: fit-content;
+    border: none;
+    border-radius: 12px;
+
+    }
+
+
+    #p2{
+
+    padding: 23px 142px 0px 201px;
+    color: #222020;;
+    font-size: xxx-large;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+    #p3{
+        padding: 64px 0px 0px 60px;
+        font-family: cursive;
+        color: #424242;
+        
+        
+    }
+
+    a {
+        text-decoration: none;
+        /* padding-left: 12px; */
+        font-family: cursive;
+    }
+
+    #submit:hover{
+    box-shadow: 0px 0px 20px rgb(231, 165, 187),0px 0px 60px lightblue;
+    background: linear-gradient(to right, #8ba7ced9 ,  #8ba7ced9 ); 
+}
+
+
+#admin:hover{
+    box-shadow: 0px 0px 20px rgb(231, 165, 187),0px 0px 60px lightblue;
+    background: linear-gradient(to right, #b39165d9 ,  #bf9c6ed9 ); 
+}
+
+    a:hover {
+        color: indianred;
+    }
+
+

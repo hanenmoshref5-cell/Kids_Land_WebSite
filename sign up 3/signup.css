@@ -1,0 +1,243 @@
+body{
+
+    background-color:#dfd8d0;
+
+}
+
+
+/* color for logo in home */
+#kk{
+    color:rgb(92, 55, 38);
+    font-size: medium;
+    font-family: "Matemasie", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    }
+    
+    #ll{
+    font-size: medium;
+    color: rgb(92, 55, 38);
+    
+    }
+    
+    
+    .ids_and{
+        font-size: small;
+        color: rgb(147, 84, 55);
+    
+    }
+    /* logo imag */
+    
+    #img1{
+        height:10px ;
+        width: 10px;
+    }
+    
+    #p1{
+        position: absolute;
+        /* top:-18px ; */
+        /* left:-0.2px; */
+        right:15px ;
+        bottom: 1px;
+    }
+
+#p2{
+    position:absolute;
+    top: -3px;
+    left: 60px;
+    color: #222020;
+    font-size: xxx-large;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;  
+}
+
+.fd1{
+    margin-top: 120px;
+}
+
+#forshadow{
+position: absolute;
+top: -13px;
+width: 100%;
+height: 10px;
+left: -1px; 
+box-shadow:1px 15px 70px indianred ;
+
+}
+#forshadow2{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 5px;
+    left: -1px; 
+    box-shadow:1px -12px 50px indianred ;
+    
+    }
+
+.contener{
+    width: 1000px;
+    height: fit-content;
+    border-radius: 10px;
+    
+
+}
+
+#uname,#password,#password2,#email,#date{
+
+    width: 350px;
+    height: 46px;
+    background-color: #ede7e7;
+    border-radius: 19px;
+    border-width: 1px;
+    border-color: #00000066;
+    box-shadow: 0px 0px 6px indianred;
+    margin: 8px 0px 13px 86px;
+
+}
+
+#c1{
+box-shadow: 0px 0px 6px indianred;
+margin-left: 100px;
+}
+#c2{
+    box-shadow: 0px 0px 6px indianred;
+    margin-left: 80px;
+    }
+
+#l1{
+position: absolute;
+left: 90px;
+
+}
+
+#l2{
+    position: absolute;
+    left: 170px;
+    
+    }
+
+#submit,#reset{
+
+    margin: 36px 0px 0px 89px;
+    height: 33px;
+    width: 125px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: #ff8a8a60;
+    box-shadow: 0px 0px 117px indianred;
+    background: linear-gradient(to right, #9a7467d9, #a59090);;
+}
+
+input::placeholder{
+
+    padding-left: 30px;
+    font-family: cursive;
+    word-spacing: 1px;
+    letter-spacing: 1.4px;
+    font-size:small ;
+    color: rgba(92, 55, 38, 0.651);
+
+}
+
+.l{
+    font-family: cursive;
+    word-spacing: 1px;
+    font-size:small ;
+
+}
+
+#submit:hover{
+    box-shadow: 0px 0px 20px rgb(231, 165, 187),0px 0px 60px lightblue;
+    background: linear-gradient(to right, #8ba7ced9 ,  #8ba7ced9 ); 
+
+}
+#reset:hover{
+    box-shadow: 0px 0px 20px rgb(231, 165, 187),0px 0px 60px lightblue;
+    background: linear-gradient(to right, #b87a85d9 ,  #cb8aa7d9 ); 
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+<font style=" color:red;  position: absolute; bottom: 30px; left:25px;">
+
+<?php
+// إعداد اتصال قاعدة البيانات
+$servername = "localhost";  // اسم الخادم
+$username = "root";         // اسم المستخدم (تعديله حسب النظام)
+$password = "";             // كلمة المرور (تعديله حسب النظام)
+$dbname = "kids-land-data";  // اسم قاعدة البيانات
+
+// إنشاء اتصال
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// تحقق من الاتصال
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+// استلام البيانات المدخلة من نموذج التسجيل
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $username = $_POST['username'];
+    $email = $_POST['email'];
+    $pass = $_POST['password'];
+    $date_of_birth = $_POST["date"];
+    
+    // التحقق من وجود اختيار للجنس
+    if (isset($_POST["gender"])) {
+        $gender = $_POST["gender"];
+
+
+// تشفير كلمة المرور قبل تخزينها
+$hashed_pass = password_hash($pass, PASSWORD_DEFAULT);
+
+// إعداد استعلام SQL لإضافة المستخدم
+$sql = "INSERT INTO users (username, email, password, md5_pass, gender, birthday) 
+        VALUES ('$username', '$email', '$pass', '$hashed_pass', '$gender', '$date_of_birth')";
+
+if ($conn->query($sql) === TRUE) {
+    echo "New record created successfully";
+    header("Location:../products page 5/products page 5.php");
+    exit(); 
+
+} else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+}
+
+
+    } else {
+        // $gender = ''; // أو تعيين قيمة افتراضية
+        echo "Please select a gender.";
+    }
+
+    
+    // إغلاق الاتصال
+    $conn->close();
+}
+?>
+
+
+
+
+</font>
+
+
+
+*/

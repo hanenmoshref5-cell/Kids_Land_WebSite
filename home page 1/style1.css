@@ -1,0 +1,189 @@
+
+
+/* color body */
+
+body{  
+    
+background-color: #dfd8d0;
+
+}
+
+
+/* color for logo in home */
+#kk{
+color:rgb(92, 55, 38);
+font-size: xx-large;
+font-family: "Matemasie", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+}
+
+#ll{
+font-size: xx-large;
+color: rgb(92, 55, 38);
+
+}
+
+
+.ids_and{
+    font-size: x-large;
+    color: rgb(147, 84, 55);
+
+}
+/* logo imag */
+
+#a2{
+    height:20px ;
+    width: 20px;
+}
+
+/* formait for links in up website */
+
+.contener{
+display: flex;
+flex-direction: row;
+background-color: #e3d5ca;
+width: 100.87%;
+position: relative;
+bottom: 10px;
+right: 5px;
+
+
+}
+
+a{
+text-decoration: none;
+color: rgb(92, 55, 38) ;
+font-size: large;
+
+}
+
+#a1{
+padding-left: 20px;
+
+}
+
+#a3,#a4,#a5,#a6{
+    margin: 35px 80px 0px 80px;
+    
+
+}
+#a3{
+    margin-left: 100px;
+
+}
+
+
+
+#button1{
+
+margin-left: 180px;
+width: 160px;
+height:40px ;
+margin-top: 20px;
+border: none;
+border-radius: 20px ;
+background: linear-gradient( to right,lightblue ,lightpink);
+
+
+
+}
+
+a:hover{
+color: black;
+font-size: 17px;
+
+}
+
+#a7:hover{
+    color: rgb(92, 55, 38) ;
+    font-size: large;  
+}
+
+
+
+#button1:hover{
+
+width: 162px;
+height:42px ;
+background: #D6CCC2;
+box-shadow: 3px 14px 16px 25px rgb(236, 184, 232);
+}
+
+/* -------------------------------- */
+
+#p1{
+        padding: 23px 142px 0px 201px;
+        color: #222020;
+        font-size: xxx-large;
+        font-family: "Nerko One", cursive;
+        font-weight: 400;
+        font-style: normal;
+ }
+    
+#p2,#p3{
+    padding-left: 56px;
+    font-family: cursive;
+    word-spacing: 4px;
+    letter-spacing: 0.4px;
+    line-height: 1.62;
+    color: #2b2b2bf0;
+
+}
+
+.example-img{
+
+display: flex;
+direction: row;
+flex-wrap: nowrap;
+
+}
+
+.example{
+
+    visibility: hidden;
+    width: 200px;
+    height: 138px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 24px;
+    border-radius: 31px;
+    box-shadow: 10px 10px 70px lightblue;
+
+}
+
+
+#botton2{
+    margin-left: 60px;
+    height: 29px;
+    width: 100px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    font-family: cursive;
+    border-width: 0px;
+    background: lightblue;
+
+}
+
+
+
+#p4{
+
+    padding-left: 1400px;
+    font-family: cursive;
+    font-size: 10px;
+    margin-top: 84px;
+    /* word-spacing: 4px; */
+    /* letter-spacing: 0.4px; */
+    line-height: 1.62;
+    color: #cdcac8;}
+
+
+    #botton2:hover{
+        height: 31px;
+        width: 102px;
+        cursor: pointer;
+
+
+    }

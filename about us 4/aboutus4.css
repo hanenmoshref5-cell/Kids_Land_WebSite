@@ -1,0 +1,231 @@
+
+/* color body */
+
+body{  
+    
+    background-color: #dfd8d0;
+    
+    }
+    
+    
+    /* color for logo in home */
+    #kk{
+    color:rgb(92, 55, 38);
+    font-size: xx-large;
+    font-family: "Matemasie", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    }
+    
+    #ll{
+    font-size: xx-large;
+    color: rgb(92, 55, 38);
+    
+    }
+    
+    
+    .ids_and{
+        font-size: x-large;
+        color: rgb(147, 84, 55);
+    
+    }
+    /* logo imag */
+    
+    #a2{
+        height:20px ;
+        width: 20px;
+    }
+    
+    /* formait for links in up website */
+    
+    .contener{
+    display: flex;
+    flex-direction: row;
+    background-color: #e3d5ca;
+    width: 100.87%;
+    position: relative;
+    bottom: 10px;
+    right: 5px;
+    
+    
+    }
+    
+    a{
+    text-decoration: none;
+    color: rgb(92, 55, 38) ;
+    font-size: large;
+    
+    }
+    
+    #a1{
+    padding-left: 20px;
+    
+    }
+    
+    #a3,#a4,#a5,#a6{
+        margin: 35px 80px 0px 80px;
+        
+    
+    }
+    #a3{
+        margin-left: 100px;
+    
+    }
+    
+    
+    
+    #button1{
+    
+    margin-left: 180px;
+    width: 160px;
+    height:40px ;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px ;
+    background: linear-gradient( to right,lightblue ,lightpink);
+    
+    
+    
+    }
+    
+    a:hover{
+    color: black;
+    font-size: 17px;
+    
+    }
+    
+    #a7:hover{
+        color: rgb(92, 55, 38) ;
+        font-size: large;  
+    }
+    
+    
+    
+    #button1:hover{
+    
+    width: 162px;
+    height:42px ;
+    background: #D6CCC2;
+    box-shadow: 3px 14px 16px 25px rgb(236, 184, 232);
+    }
+    
+    /* -------------------------------- */
+
+    h1{
+    padding: 20px 0px 3px 21px;
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(58, 43, 43);
+    letter-spacing: 5px;
+    }
+
+
+    p.p1 {
+        font-family: cursive;
+        padding-left: 2px;
+        word-spacing: 1px;
+        line-height: 38px;
+    }
+
+    #botton2{
+        position: absolute;
+        left: 314px;
+        top: 497px;
+        height: 29px;
+        width: fit-content;
+        margin-bottom: 10px;
+        border-radius: 6px;
+        font-family: cursive;
+        border-width: 0px;
+        background: lightblue;
+    
+    }
+    
+    #botton2:hover{
+        height: 31px;
+        cursor: pointer;
+        background: rgb(117, 201, 230);
+
+    }
+      /* -------------------------------- */
+    
+    
+        #p3{
+            padding-top: 15px;
+        padding-left:14px ;
+        color: #222020;;
+        font-size: xx-large;
+        font-family: "Nerko One", cursive;
+        font-weight: 400;
+        font-style: normal;
+        }
+    
+
+        #i1,#i2{
+width: 400px;
+height: 40px;
+margin: 0px 0px 14px 17px;
+background-color: #ede7e7;
+border-radius: 19px;
+border-width: 1px;
+border-color: #00000066;
+            }
+
+    #submit{
+        height: 30px;
+        width: 90px;
+        border-radius: 3px;
+        border-width: 1px;
+        background-color:  rgb(108, 190, 217);
+        margin-left: 30px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    
+    }
+
+  
+    
+        #submit:hover{
+            box-shadow: 0px 0px 20px rgb(231, 165, 187),0px 0px 60px lightblue;
+            background-color:  #d46f6f4e;
+        }
+
+        .divdonate{
+            display: none;
+        width:600px ;
+        height: 290px;
+        background-color: #e3d5ca;
+        margin-left: 50px;
+        }
+ /* ------------------------------------ */
+
+ul{
+
+    font-family: cursive;
+    padding-left: 10px;
+    word-spacing: 1px;
+    line-height: 38px;
+    list-style:none ;
+
+}
+
+.p2{
+ font-size: small;
+ color: #9c9090;
+ line-height: 17px;
+
+}
+
+.hanen{
+    font-size: small;
+    color: #6f5959;
+
+}
+
+ .hanen:hover{
+    font-size: small;
+ }
